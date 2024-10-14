@@ -1,0 +1,86 @@
+/*This changes the basic color and font size for paragraph elements.*/
+p {
+    color: white;
+    font-size: 18px;
+}
+/*This allows for the navigation bar to be centered at the top of the page, with only the image present; no external borders or padding. The cursor also changes to 'pointer' when hovered over. */
+button {
+    text-align: center;
+    padding: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+/*Changes the h1 color to white.*/
+h1 {
+    color: white;
+}
+/*Changes the h2 color to white.*/
+h2 {
+    color: white;
+}
+/*This aligns all button elements to centered within the page*/
+.buttons {
+    text-align: center;
+}
+/*Every div class that is identified as "container" is aligned to the left, mostly used for Zi'eer on the lore page of my website.*/
+.container {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+}
+/*This is essentially the opposite of the first container, except everything is moved towards the right.*/
+.containertwo {
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
+/*This element is for the lore page, putting the title and picture in the center of the page.*/
+.dukiepoo {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/*This element changes the font size to 18px and aligns the padding to the left.*/
+.text {
+    font-size: 18px;
+    padding-left: 18px;
+}
+/*This element changes the font size to 18px and aligns the padding to the right.*/
+.texthehe {
+    font-size: 18px;
+    padding-right: 18px;
+}
+/*This element allows images to use their full height and width.*/
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+/*Used for aligning images and text to the center of the page, but limiting its height to 90px.*/
+.box {
+    text-align:center; 
+    vertical-align: middle;
+    height: 90px;  
+}
+/*Aligns the title text to the center of the page*/
+.title {
+    text-align: center;
+}
+/* Aligns the title text to the right of the page*/
+.titletwo {
+    text-align: right;
+}
+/*This is for the form padding and background color.*/
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+/*This is for the forum page, regarding the input area, text, border radius, padding and width.*/
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
