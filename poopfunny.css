@@ -10,6 +10,7 @@ button {
     border: none;
     background: none;
     cursor: pointer;
+    color:white;
 }
 /*Changes the h1 color to white.*/
 h1 {
@@ -18,6 +19,11 @@ h1 {
 /*Changes the h2 color to white.*/
 h2 {
     color: white;
+}
+
+h3 {
+    color: white;
+    text-align: center;
 }
 /*This aligns all button elements to centered within the page*/
 .buttons {
@@ -72,7 +78,7 @@ img {
 }
 /*This is for the form padding and background color.*/
 form {
-    background: #fff;
+    background: #728a81;
     padding: 20px;
     border-radius: 5px;
 }
@@ -81,6 +87,48 @@ input, textarea {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #ccc;
+    border: 1px solid #a9c6bb;
     border-radius: 4px;
 }
+
+body {
+    background-color: #657b73;
+    margin: 0;
+    padding: 0;
+    }
+    .containerz {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #46544f;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* border: 5px solid red; */
+    }
+    .form-group {
+    margin-bottom: 15px;
+    }
+    label {
+    display: block;
+    font-weight: bold;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    }
+    button {
+    background-color: #859d94;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    }
+    button:hover {
+    background-color: #a9c6bb;
+    }
