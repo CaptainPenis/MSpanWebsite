@@ -105,6 +105,15 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* border: 5px solid red; */
     }
+    .containerzz {
+        max-width: 400px;
+        margin: 0 auto;
+        background-color: #46544f;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        }
     .form-group {
     margin-bottom: 15px;
     }
@@ -131,4 +140,21 @@ body {
     }
     button:hover {
     background-color: #a9c6bb;
+    }
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #151811;
+        color: #aaa;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    footer a:hover {
+        text-decoration: underline;
+    }
+    header {
+        background-color: #1C1C1C;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     }
